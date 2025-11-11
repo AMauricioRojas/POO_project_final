@@ -1,0 +1,111 @@
+---
+title: "Practica 2. Clases, Objetos, métodos y atributos"
+format: docx
+---
+```{python}
+#Practica 4 . HERENCIA 
+class ticket:
+    def _init_(self,id,tipo,prioridad):
+        self.id=id
+        self.tipo=tipo
+        self.prioridad=prioridad
+        self.estado="pendiente"
+    def imprimir(self):
+        print(f"ID: {self.id} Tipo: {self.tipo} Prioridad: {self.prioridad} Estado: {self.estado} ")
+        
+
+#CLASE PADRE
+class empleado:
+    def _init_(self, nombre):
+        self.nombre=nombre
+    def ticket(self,ticket):
+        print(f"Empleado: {self.nombre} con el ticket {ticket.id}")
+
+class desarrollador(empleado):
+    def ticket(self,ticket):
+        if ticket.tipo=="software":
+            ticket.estado="resuelto"
+            print(f"Empleado: {self.nombre} con el ticket {ticket.id}")
+        else:
+            print("No puedes pedir un ticket de software")
+
+class dester(empleado):
+    def ticket(self,ticket):
+        if ticket.tipo=="prueba":
+            ticket.estado="resuelto"
+            print(f"Empleado: {self.nombre} con el ticket {ticket.id}")
+        else:
+            print("No puedes pedir un ticket de software")
+
+class projectmanager(empleado):
+    def asignar(self,ticket,emplado):
+        print(f"{self.nombre} asigna el ticket {ticket.id} al empleado {emplado.nombre}")
+        emplado.ticket(ticket)
+
+#Crear ticket y empleados (intancias de objetos )
+ticket1=ticket(1,"software","alta ")
+ticket2=ticket(2,"prueba","baja")
+
+desarrollador1=desarrollador("Alfredo")
+tester1=dester("Pedro")
+projectmanager1=projectmanager("Maria")
+
+projectmanager1.asignar(ticket1,desarrollador1)
+projectmanager1.asignar(ticket2,tester1)
+
+ticket1.imprimir()
+ticket2.imprimir()
+
+
+#Agregar un menu interactivo con while  y con if para:
+# 1.Crear un ticket
+# 2. Ver los tickets
+# 3. Asignar un ticket
+# 4. Salir
+
+tickets=[ticket1,ticket2]
+
+while True:
+    print("\n--- Menú Interactivo ---")
+    print("1. Crear un ticket")
+    print("2. Ver los tickets")
+    print("3. Asignar un ticket")
+    print("4. Salir")
+    
+    opcion=input("Elige una opción: ")
+    
+    if opcion=="1":
+        id=len(tickets)+1
+        tipo=input("Tipo de ticket (software/prueba): ")
+        prioridad=input("Prioridad (alta/baja): ")
+        nuevo=ticket(id,tipo,prioridad)
+        tickets.append(nuevo)
+        print("Ticket creado exitosamente.")
+        
+    elif opcion=="2":
+        print("\nLista de Tickets:")
+        for t in tickets:
+            t.imprimir()
+    
+    elif opcion=="3":
+        if not tickets:
+            print("No hay tickets disponibles.")
+        else:
+            id_ticket=int(input("ID del ticket a asignar: "))
+            for t in tickets:
+                if t.id==id_ticket:
+                    if t.tipo=="software":
+                        projectmanager1.asignar(t,desarrollador1)
+                    elif t.tipo=="prueba":
+                        projectmanager1.asignar(t,tester1)
+                    else:
+                        print("No hay empleados para ese tipo de ticket.")
+                    break
+            else:
+                print("Ticket no encontrado.")
+    
+    elif opcion=="4":
+        print("Saliendo del menú...")
+        break
+    else:
+        print("Opción no válida.")

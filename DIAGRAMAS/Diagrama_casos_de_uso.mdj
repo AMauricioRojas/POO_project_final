@@ -1,0 +1,358 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGZgi4qgeAAsIg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 184,
+							"top": 160,
+							"width": 200,
+							"height": 360
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi5ic+ADgus=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 224,
+							"top": 208,
+							"width": 120,
+							"height": 50
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi57ZeAGZiA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 224,
+							"top": 280,
+							"width": 112,
+							"height": 50
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi6IZeAJSz4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 224,
+							"top": 344,
+							"width": 112,
+							"height": 56
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi6hkOAMrk8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 224,
+							"top": 416,
+							"width": 120,
+							"height": 64
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGZgi7YMuAXs7w=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 232,
+							"top": 168,
+							"width": 105.82421875,
+							"height": 25,
+							"text": "RESTAURANTE"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi8UoOAbm0w=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 488,
+							"top": 200,
+							"width": 56,
+							"height": 50
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGZgi83VOAeHX0=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 48,
+							"top": 200,
+							"width": 56,
+							"height": 50
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi+dwOAhE7g=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "72:240;73:396"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi+6g+AkiZM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "40:296;105:294"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi/H5+AnDM8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "72:392;29:454"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi/VveAqh2o=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "72:392;107:444"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi/shuAtX9Q=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "512:248;512:414"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgi/2T+AwsJI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "512:408;456:456"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjAGy+A09m4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "512:408;556:463"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjAsD+A519A=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "480:288;563:289"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGZgjBa0+A9zO0=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 32,
+							"top": 472,
+							"width": 96,
+							"height": 38,
+							"text": "critico de comidas"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGZgjB3FeBBw4U=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 448,
+							"top": 480,
+							"width": 136,
+							"height": 25,
+							"text": "CHEF"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGZgjEkBOBF7/Y=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 248,
+							"top": 216,
+							"width": 72,
+							"height": 38,
+							"text": "probar comida"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGZgjFSX+BKhxA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 248,
+							"top": 288,
+							"width": 64,
+							"height": 38,
+							"text": "pagar comida"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGZgjGF1uBQj5o=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 248,
+							"top": 360,
+							"width": 64,
+							"height": 38,
+							"text": "bebeer vino"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGZgjGyMeBUkqA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 248,
+							"top": 424,
+							"width": 72,
+							"height": 38,
+							"text": "preparar la comida"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjH3VuBb45c=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "88:320;260:248"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjID9eBegYo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "80:352;244:314"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjINb+BhAEU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "80:376;248:374"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGZgjIa2OBkh3Q=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"lineStyle": 1,
+							"points": "504:304;327:447"
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGZgi1eUd+9BUI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class1"
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}
